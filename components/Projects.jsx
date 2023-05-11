@@ -1,9 +1,8 @@
 import React from "react";
-// import propertyImg from "../public/assets/projects/property.jpeg";
-// import cryptoImg from "../public/assets/projects/crypto.jpeg";
-// import netflixImg from "../public/assets/projects/netflix.jpeg";
-// import twitchImg from "../public/assets/projects/twitch.jpeg";
-import portfoliopic from "public/assets/projects/portfoliopic.png";
+
+import skillspic from "public/assets/projects/skillspic.png";
+import spotifypic from "public/assets/projects/spotifypic.png";
+import todopicfirst from "public/assets/projects/todopicfirst.png";
 import Image from "next/image";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
@@ -15,28 +14,28 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
-        <h2 className="py-4">What Ive Built</h2>
+        <h2 className="py-4">What I have built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Portfolio"
-            backgroundImg={portfoliopic}
+            backgroundImg={skillspic}
             projectUrl="/portfolio"
           />
           <ProjectItem
-            title="Crypto App"
-            // backgroundImg={cryptoImg}
-            projectUrl="/crypto"
+            title="Spotify Mobile App"
+            backgroundImg={spotifypic}
+            projectUrl="/spotify"
           />
           <ProjectItem
-            title="Netflix"
-            // backgroundImg={netflixImg}
-            projectUrl="/netflix"
+            title="Todo application"
+            backgroundImg={todopicfirst}
+            projectUrl="/todoapp"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Twitch"
             // backgroundImg={twitchImg}
             projectUrl="/twitch"
-          />
+          /> */}
         </div>
       </div>
     </div>

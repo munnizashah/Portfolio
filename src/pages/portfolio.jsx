@@ -42,6 +42,9 @@ const portfolio = () => {
               <p className="py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
+              <p className="py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Javascript
+              </p>
             </div>
           </div>
         </div>

@@ -17,9 +17,9 @@ const Navbar = () => {
   useEffect(() => {
     if (
       router.asPath === "/portfolio" ||
-      router.asPath === "/netflix" ||
-      router.asPath === "/twitch" ||
-      router.asPath === "/crypto"
+      router.asPath === "/spotify" ||
+      router.asPath === "/todoapp" ||
+      router.asPath === "/modernpage"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");

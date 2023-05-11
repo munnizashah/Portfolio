@@ -27,24 +27,30 @@ const Contact = () => {
               <div>
                 <h2 className="py-2">Munniza Shah</h2>
                 <p>Front-End Developer</p>
-                <p>Lets connect, reach out!</p>
+                <p>Reach out to me!</p>
               </div>
 
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn style={{ fill: "white" }} />
+                    <a href="https://www.linkedin.com/in/munniza-shah-4324b0233/">
+                      <FaLinkedinIn style={{ fill: "white" }} />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub style={{ fill: "white" }} />
+                    <a href="https://github.com/munnizashah">
+                      <FaGithub style={{ fill: "white" }} />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail style={{ fill: "white" }} />
+                    <a href="mailto: shahmunniza@gmail.com">
+                      <AiOutlineMail style={{ fill: "white" }} />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  {/* <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsFillPersonLinesFill style={{ fill: "white" }} />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
