@@ -1,14 +1,19 @@
 import React from "react";
-import Image from 'next/image'
+import Image from "next/image";
+import moni from "public/assets/other/moni.jpg";
 
 const About = () => {
   return (
-    <div id='about' className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+            About
+          </p>
           <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <p className="py-2 text-gray-300">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
           <p className="py-2 text-gray-300">
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -21,8 +26,14 @@ const About = () => {
           </p>
         </div>
         <div className="w-[240px] h-auto m-auto shadow-xl shadow-black rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ease-in duration-300">
-				<Image className='rounded-xl' src='/../public/assets/other/moni.jpg' width='200' height='64' alt='/'/>
-				</div>
+          <Image
+            className="rounded-xl"
+            src={moni}
+            width="200"
+            height="64"
+            alt="/"
+          />
+        </div>
       </div>
     </div>
   );
