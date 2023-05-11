@@ -27,7 +27,7 @@ const portfolio = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>lalalala</p>
+          <p>Just trying out</p>
           <a href="https://github.com/munnizashah/Portfolio">
             <button className="px-8 py-2 mt-4">Github</button>
           </a>
