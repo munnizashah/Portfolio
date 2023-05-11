@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div id='contact' className="w-full lg:h-screen">
+    <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
@@ -27,23 +27,23 @@ const Contact = () => {
               <div>
                 <h2 className="py-2">Munniza Shah</h2>
                 <p>Front-End Developer</p>
-                <p>Let's connect, reach out!</p>
+                <p>Lets connect, reach out!</p>
               </div>
 
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn style={{ fill: 'white' }} />
+                    <FaLinkedinIn style={{ fill: "white" }} />
                   </div>
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub style={{ fill: 'white' }}/>
+                    <FaGithub style={{ fill: "white" }} />
                   </div>
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail style={{ fill: 'white' }} />
+                    <AiOutlineMail style={{ fill: "white" }} />
                   </div>
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill style={{ fill: 'white' }}/>
+                    <BsFillPersonLinesFill style={{ fill: "white" }} />
                   </div>
                 </div>
               </div>
@@ -102,10 +102,10 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className='flex justify-center py-12'>
+        <div className="flex justify-center py-12">
           <Link href="/#main" scroll={false}>
             <div className="rounded-full shadow-lg shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30} />
+              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
             </div>
           </Link>
         </div>
