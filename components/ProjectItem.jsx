@@ -1,5 +1,5 @@
 import React from "react";
-// import propertyImg from '../public/assets/projects/property.jpeg'
+import portfoliopic from "../public/assets/projects/portfoliopic.png";
 import Image from "next/image";
 import Link from "next/link";
 

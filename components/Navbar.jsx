@@ -16,7 +16,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
-      router.asPath === "/property" ||
+      router.asPath === "/portfolio" ||
       router.asPath === "/netflix" ||
       router.asPath === "/twitch" ||
       router.asPath === "/crypto"
@@ -104,7 +104,7 @@ const Navbar = () => {
           </div>
           <div className="border-b border-gray-600 my-4">
             <p className="w-[85%] md:w-[90%] py-4">
-              Let's build a great portfolio
+              Lets build a great portfolio
             </p>
           </div>
           <div className="py-4 flex flex-col">
@@ -137,21 +137,27 @@ const Navbar = () => {
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
-                Let's connect
+                Lets connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn style={{ fill: "white" }} />
+                  <a href="https://www.linkedin.com/in/munniza-shah-4324b0233/">
+                    <FaLinkedinIn style={{ fill: "white" }} />
+                  </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub style={{ fill: "white" }} />
+                  <a href="https://github.com/munnizashah">
+                    <FaGithub style={{ fill: "white" }} />
+                  </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail style={{ fill: "white" }} />
+                  <a href="mailto: shahmunniza@gmail.com">
+                    <AiOutlineMail style={{ fill: "white" }} />
+                  </a>
                 </div>
-                <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                {/* <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsFillPersonLinesFill style={{ fill: "white" }} />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

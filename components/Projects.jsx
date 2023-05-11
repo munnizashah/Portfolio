@@ -3,6 +3,7 @@ import React from "react";
 // import cryptoImg from "../public/assets/projects/crypto.jpeg";
 // import netflixImg from "../public/assets/projects/netflix.jpeg";
 // import twitchImg from "../public/assets/projects/twitch.jpeg";
+import portfoliopic from "public/assets/projects/portfoliopic.png";
 import Image from "next/image";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
@@ -17,9 +18,9 @@ const Projects = () => {
         <h2 className="py-4">What Ive Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Propery Finder"
-            // backgroundImg={propertyImg}
-            projectUrl="/property"
+            title="Portfolio"
+            backgroundImg={portfoliopic}
+            projectUrl="/portfolio"
           />
           <ProjectItem
             title="Crypto App"

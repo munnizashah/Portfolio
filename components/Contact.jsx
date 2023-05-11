@@ -53,50 +53,107 @@ const Contact = () => {
           {/* Right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-black rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form
+                action="https://formsubmit.co/shahmunniza@gmail.com"
+                method="POST"
+              >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label htmlFor="thename" className="uppercase text-sm py-2">
+                      Name
+                    </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
+                      type="hidden"
+                      name="_subject"
+                      value="Du har fått ett mail via din portfolio"
+                      required
                     />
+
+                    <input
+                      type="text"
+                      name="name"
+                      required
+                      className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
+                    />
+
+                    {/* <input
+                      className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
+                      type="text"
+                      name="name"
+                      required
+                    /> */}
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
+                    <label htmlFor="number" className="uppercase text-sm py-2">
                       Phone Number
                     </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
+                      type="number"
+                      name="phone"
+                      required
+                      className="border-2 rounded-lg p-3 flex border-gray-300  text-black"
                     />
+
+                    {/* <input
+                      className="border-2 rounded-lg p-3 flex border-gray-300  text-black"
+                      type="number"
+                    /> */}
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Email</label>
+                  <label htmlFor="email" className="uppercase text-sm py-2">
+                    Email
+                  </label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
+                    name="email"
+                    required
+                    className="border-2 rounded-lg p-3 flex border-gray-300  text-black"
                   />
+
+                  {/* <input
+                    className="border-2 rounded-lg p-3 flex border-gray-300  text-black"
+                    type="email"
+                    required
+                  /> */}
                 </div>
 
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
+                  <label htmlFor="subject" className="uppercase text-sm py-2">
+                    Subject
+                  </label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    name="subject"
+                    required
+                    className="border-2 rounded-lg p-3 flex border-gray-300  text-black"
                   />
+
+                  {/* <input
+                    id="subject"
+                    className="border-2 rounded-lg p-3 flex border-gray-300  text-black"
+                    type="text"
+                  /> */}
                 </div>
 
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Message</label>
+                  <label htmlFor="message" className="uppercase text-sm py-2">
+                    Message
+                  </label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    name="theMessage"
+                    id="message"
+                    className="border-2 rounded-lg p-3 border-gray-300  text-black"
                     rows="10"
+                    required
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
-                  Send Message
+                <button
+                  // disabled={loading}
+                  className="w-full p-4 text-gray-100 mt-4"
+                >
+                  {" "}
+                  Submit
                 </button>
               </form>
             </div>
