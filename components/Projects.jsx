@@ -3,7 +3,7 @@ import React from "react";
 // import cryptoImg from "../public/assets/projects/crypto.jpeg";
 // import netflixImg from "../public/assets/projects/netflix.jpeg";
 // import twitchImg from "../public/assets/projects/twitch.jpeg";
-import { portfoliopic } from "public/assets/projects/portfoliopic.png";
+import portfoliopic from "public/assets/projects/portfoliopic.png";
 import Image from "next/image";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
