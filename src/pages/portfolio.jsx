@@ -3,7 +3,7 @@ import Image from "next/image";
 import portfoliopic from "public/assets/projects/portfoliopic.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import ProjectPage from "../../components/ProjectPage";
+import ProjectPage from "../../components/projectpage";
 
 const portfolio = () => {
   return (
