@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import moni from "public/assets/other/moni.jpg";
+import moni from "../public/assets/other/moni.jpg";
 
 const About = () => {
   return (
