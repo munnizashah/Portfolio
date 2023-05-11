@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import Htmll from "../public/assets/skills/htmll.png";
-import Css from "../public/assets/skills/css.png";
-import Javascript from "../public/assets/skills/javascript.png";
-import Reactjs from "../public/assets/skills/reactjs.png";
-import Nextjs from "../public/assets/skills/nextjs.png";
-import Tailwind from "../public/assets/skills/tailwind.png";
-import Github1 from "../public/assets/skills/github1.png";
-import Node from "../public/assets/skills/node.png";
+import htmll from "../public/assets/skills/htmll.png";
+import css from "../public/assets/skills/css.png";
+import javascript from "../public/assets/skills/javascript.png";
+import reactjs from "../public/assets/skills/reactjs.png";
+import nextjs from "../public/assets/skills/nextjs.png";
+import tailwind from "../public/assets/skills/tailwind.png";
+import github1 from "../public/assets/skills/github1.png";
+import node from "../public/assets/skills/node.png";
 
 const Skills = () => {
   return (
@@ -21,7 +21,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Htmll} width="64" height="64" alt="/" />
+                <Image src={htmll} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>HTML</h3>
@@ -32,7 +32,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Css} width="64" height="64" alt="/" />
+                <Image src={css} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>CSS</h3>
@@ -43,7 +43,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Javascript} width="64" height="64" alt="/" />
+                <Image src={javascript} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>JavaScript</h3>
@@ -54,7 +54,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Reactjs} width="64" height="64" alt="/" />
+                <Image src={reactjs} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>React</h3>
@@ -65,7 +65,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Nextjs} width="64" height="64" alt="/" />
+                <Image src={nextjs} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Next.js</h3>
@@ -76,7 +76,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Tailwind} width="64" height="64" alt="/" />
+                <Image src={tailwind} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tailwind</h3>
@@ -87,7 +87,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Github1} width="64" height="64" alt="/" />
+                <Image src={github1} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Github</h3>
@@ -98,7 +98,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Node} width="64" height="64" alt="/" />
+                <Image src={node} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Node</h3>
