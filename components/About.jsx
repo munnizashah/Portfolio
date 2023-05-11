@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import moni from "../public/assets/other/moni.jpg";
+import Moni from "../public/assets/other/moni.jpg";
 
 const About = () => {
   return (
@@ -28,7 +28,7 @@ const About = () => {
         <div className="w-[240px] h-auto m-auto shadow-xl shadow-black rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ease-in duration-300">
           <Image
             className="rounded-xl"
-            src={moni}
+            src={Moni}
             width="200"
             height="64"
             alt="/"
