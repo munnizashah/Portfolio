@@ -26,8 +26,14 @@ const spotify = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Just trying out</p>
-          <a href="https://github.com/munnizashah/Portfolio">
+          <p>
+            A fun group project recreating a Spotify mobile version figma design
+            with out own little twist. This was the first time using React and
+            it was tricky to start with but when I got familiar with it I
+            started enjoying working with it and I can understand why it is
+            popular.
+          </p>
+          <a href="https://github.com/WeActForever/clonify">
             <button className="px-8 py-2 mt-4">Github</button>
           </a>
         </div>

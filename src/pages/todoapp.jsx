@@ -27,7 +27,7 @@ const todoapp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>Just trying out</p>
-          <a href="https://github.com/munnizashah/Portfolio">
+          <a href="https://github.com/FED24-Data-Interaction/todo-list">
             <button className="px-8 py-2 mt-4">Github</button>
           </a>
         </div>

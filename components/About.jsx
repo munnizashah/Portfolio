@@ -12,17 +12,19 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I am</h2>
           <p className="py-2 text-gray-300">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            I am on my 23rd year around the sun and currently studying frontend
+            development at Hyper Island.
           </p>
           <p className="py-2 text-gray-300">
-            Ut enim ad minim veniam,. quis nostrud exercitation ullamco laboris
-            nisi ut ali.quip .ex ea .com.modo c.o.n.sequat. Duis. aute irure
-            dolor in reprehenderit in voluptate vel.it esse cillum dolore eu
-            fugiat nulla pariatur.
+            I would call myself a student of life and a creator of heart and
+            love bringing value to others. Being able to create from scratch and
+            watch my code become a reality is what puts a smile on my face. I
+            enjoy being in an innovative and creative environment as that is
+            where my potential flourishes.
           </p>
           <p className="py-2 text-gray-300">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            Take a look around my portfolio and reach out! Lets create some
+            magic!{" "}
           </p>
         </div>
         <div className="w-[240px] h-auto m-auto shadow-xl shadow-black rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ease-in duration-300">
