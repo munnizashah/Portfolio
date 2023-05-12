@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import htmll from "./skillpics/htmll.png";
-import css from "./skillpics/css.png";
-import javascript from "./skillpics/javascript.png";
-import reactjs from "./skillpics/reactjs.png";
-import nextjs from "./skillpics/nextjs.png";
-import tailwind from "./skillpics/tailwind.png";
-import github1 from "./skillpics/github1.png";
-import node from "./skillpics/node.png";
+import htmll from "./skills/htmll.png";
+import css from "./skills/css.png";
+import javascript from "./skills/javascript.png";
+import reactjs from "./skills/reactjs.png";
+import nextjs from "./skills/nextjs.png";
+import tailwind from "./skills/tailwind.png";
+import github1 from "./skills/github1.png";
+import node from "./skills/node.png";
 
 const Skills = () => {
   return (
