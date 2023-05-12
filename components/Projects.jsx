@@ -5,7 +5,7 @@ import spotifypic from "public/assets/projects/spotifypic.png";
 import todopicfirst from "public/assets/projects/todopicfirst.png";
 import Image from "next/image";
 import Link from "next/link";
-import ProjectItem from "./ProjectItem";
+import ProjectItem from "./projectitem";
 
 const Projects = () => {
   return (
