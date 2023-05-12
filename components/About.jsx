@@ -15,7 +15,7 @@ const About = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
           <p className="py-2 text-gray-300">
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            Ut enim ad minim veniam,. quis nostrud exercitation ullamco laboris
             nisi ut ali.quip .ex ea .com.modo c.o.n.sequat. Duis. aute irure
             dolor in reprehenderit in voluptate vel.it esse cillum dolore eu
             fugiat nulla pariatur.
