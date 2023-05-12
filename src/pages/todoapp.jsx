@@ -26,10 +26,21 @@ const todoapp = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Just trying out</p>
-          <a href="https://github.com/FED24-Data-Interaction/todo-list">
+          <p>
+            A todo application built with RESTful API principles and a database
+            where we call the data from our todo web application. I truly
+            enjoyed working on this project even if it was tough in the
+            beginning. We used Sequelize to communicate to the database and
+            express.js for this process. While working on this project I
+            realised that I enjoy backend as well, it was fun building both
+            back- and frontend.{" "}
+          </p>
+          <Link
+            target="_blank"
+            href="https://github.com/FED24-Data-Interaction/todo-list"
+          >
             <button className="px-8 py-2 mt-4">Github</button>
-          </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-black rounded-xl p-4">
           <div className="p-2">

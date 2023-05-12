@@ -2,10 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Main from "../components/main";
-import About from "../components/about";
+import About from "../components/About";
 import Skills from "../components/skills";
 import Projects from "../components/projects";
-import Contact from "../components/contact";
+import Contact from "../components/Contact";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

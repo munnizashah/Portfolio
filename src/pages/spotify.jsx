@@ -33,9 +33,9 @@ const spotify = () => {
             started enjoying working with it and I can understand why it is
             popular.
           </p>
-          <a href="https://github.com/WeActForever/clonify">
+          <Link target="_blank" href="https://github.com/WeActForever/clonify">
             <button className="px-8 py-2 mt-4">Github</button>
-          </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-black rounded-xl p-4">
           <div className="p-2">

@@ -34,19 +34,22 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a href="https://www.linkedin.com/in/munniza-shah-4324b0233/">
+                    <Link
+                      target="_blank"
+                      href="https://www.linkedin.com/in/munniza-shah-4324b0233/"
+                    >
                       <FaLinkedinIn style={{ fill: "white" }} />
-                    </a>
+                    </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a href="https://github.com/munnizashah">
+                    <Link target="_blank" href="https://github.com/munnizashah">
                       <FaGithub style={{ fill: "white" }} />
-                    </a>
+                    </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a href="mailto: shahmunniza@gmail.com">
+                    <Link href="mailto: shahmunniza@gmail.com">
                       <AiOutlineMail style={{ fill: "white" }} />
-                    </a>
+                    </Link>
                   </div>
                   {/* <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsFillPersonLinesFill style={{ fill: "white" }} />

@@ -141,19 +141,22 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="https://www.linkedin.com/in/munniza-shah-4324b0233/">
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/munniza-shah-4324b0233/"
+                  >
                     <FaLinkedinIn style={{ fill: "white" }} />
-                  </a>
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="https://github.com/munnizashah">
+                  <Link target="_blank" href="https://github.com/munnizashah">
                     <FaGithub style={{ fill: "white" }} />
-                  </a>
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="mailto: shahmunniza@gmail.com">
+                  <Link target="_blank" href="mailto: shahmunniza@gmail.com">
                     <AiOutlineMail style={{ fill: "white" }} />
-                  </a>
+                  </Link>
                 </div>
                 {/* <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsFillPersonLinesFill style={{ fill: "white" }} />

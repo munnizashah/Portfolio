@@ -31,9 +31,9 @@ const portfolio = () => {
             A simple modern portfolio for my project which I built with Next.js
             and tailwind.
           </p>
-          <a href="https://github.com/munnizashah/Portfolio">
+          <Link target="_blank" href="https://github.com/munnizashah/Portfolio">
             <button className="px-8 py-2 mt-4">Github</button>
-          </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-black rounded-xl p-4">
           <div className="p-2">
